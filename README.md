@@ -1,4 +1,4 @@
-# liste-PI2
+# Listen-PI2
 Prof. Dr. C. Yuan
 Praktikum "Praktische Informatik 2" TH Köln, Fakultät 07
 Aufgaben zu Versuch 3
