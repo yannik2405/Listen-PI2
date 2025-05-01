@@ -18,7 +18,9 @@ Diese Klasse hat die folgenden Eigenschaften :<br/>
 • Attribute sind ein Array mit int-Einträgen und eine int-Variable, die Länge der Liste angibt. Die Attribute sollen von außen nicht direkt zugreifbar sein.<br/>
 • Ein Konstruktor: Der Konstruktor soll als Parameterwert die maximale Größe des Arrays übergeben bekommen. Er soll das Array erzeugen. Die Methode insertLast liefert eine 0, wenn der Wert erfolgreich in die Liste eingefügt werden kann, sonst eine -1.<br/>
 • Die Methode getFirst liefert einen Wert -9999, wenn die Liste leer ist.<br/>
-• Die Methode deleteFirst liefert eine 0 bei erfolgreicher Operation, sonst -1. Das Hauptprogramm soll zunächst ein Objekt der obigen Klasse erzeugen. Die maximale Arraygröße soll über die Tastatur eingelesen und dann an den Konstruktorübergeben werden. Anschließend soll der Benutzer die Möglichkeit haben, wiederholt eine Methode der Klasse zu wählen und den Rückgabewert der jeweiligen Methode auf den Bildschirm zu lesen. Testen Sie Ihr Programm, bis alle Methoden richtig funktionieren.<br/>
+• Die Methode deleteFirst liefert eine 0 bei erfolgreicher Operation, sonst -1. <br/>
+<br/>
+Das Hauptprogramm soll zunächst ein Objekt der obigen Klasse erzeugen. Die maximale Arraygröße soll über die Tastatur eingelesen und dann an den Konstruktorübergeben werden. Anschließend soll der Benutzer die Möglichkeit haben, wiederholt eine Methode der Klasse zu wählen und den Rückgabewert der jeweiligen Methode auf den Bildschirm zu lesen. Testen Sie Ihr Programm, bis alle Methoden richtig funktionieren.<br/>
 <br/>
 # Aufgabe 3.2: Listen mit beliebigen Typen
 Ändern Sie das Interface und die Klasse aus Aufgabe 3.1 so, dass Listen mit beliebigen Typen definiert werden können (z.B. eine Liste mit int-Werten oder eine Liste mit double-Werten).<br/>
