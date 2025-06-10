@@ -17,7 +17,7 @@ public interface IntegerList {
     // Wenn die Liste leer ist, wird ein spezieller Fehlerwert (z.B. -9999) zurückgegeben.
     // Hinweis: Der Fehlerwert ist konventionell, eine bessere Lösung könnte ein Optional oder eine Exception sein.
     // Rückgabewert: Das erste Element der Liste oder ein Fehlerwert, wenn die Liste leer ist.
-    int getFrist(); // Hinweis: Vermutlich ein Tippfehler, sollte "getFirst()" heißen.
+    int getFirst();
 
     // Diese Methode löscht das erste Element aus der Liste.
     // Rückgabewert: 0 wenn das Löschen erfolgreich war, ein Fehlercode (z.B. -1) wenn die Liste leer ist.

@@ -58,10 +58,10 @@ public class Menue1 {
 
                 case 3:
                     // Gibt das erste Element der Liste zurück, falls vorhanden.
-                    if(list.getFrist() == -9999) {
+                    if(list.getFirst() == -9999) {
                         System.out.println("Die Liste ist leer.");
                     } else {
-                        System.out.println("Das erste Element der Liste ist: " + list.getFrist());
+                        System.out.println("Das erste Element der Liste ist: " + list.getFirst());
                     }
                     break;
 

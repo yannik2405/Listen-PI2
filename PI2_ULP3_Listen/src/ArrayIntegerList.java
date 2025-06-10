@@ -39,7 +39,7 @@ public class ArrayIntegerList implements IntegerList {
 
     // Gibt das erste Element der Liste zurück, ohne es zu entfernen.
     // Rückgabewert: tatsächlicher Wert oder -9999, wenn die Liste leer ist.
-    public int getFrist() {  // Anmerkung: Schreibfehler im Methodennamen, sollte "getFirst()" sein.
+    public int getFirst() {
         if (length == 0)
         {
             return -9999; // Konventioneller Fehlerwert
